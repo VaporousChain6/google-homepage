@@ -1,0 +1,15 @@
+#page {
+    background-color: hsla(299, 83%, 90%, 1);
+    width:100%;
+    height:max-content;
+    display: flex;
+    justify-content: center;
+}
+#searchbar {
+    width: 700px;
+    height:30px;
+    margin:50px;
+    padding:10px;
+
+
+}
