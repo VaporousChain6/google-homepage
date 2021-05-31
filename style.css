@@ -10,6 +10,27 @@
     height:30px;
     margin:50px;
     padding:10px;
+    border-width: 10px;
+    border-color: crimson;
+    margin-right: 0px;
+}
+#searchimage{
+    width: 70px;
+    height: 70px;
+    margin-top: 50px;
+}
 
-
+#quickpages{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.quickpageimg{
+    width:350px;
+    height: 150px;
+}
+.quickpagetext{
+    
 }
