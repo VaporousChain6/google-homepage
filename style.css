@@ -1,5 +1,5 @@
 #page {
-    background-color: hsla(299, 83%, 90%, 1);
+    background-color: #67CED3;
     width:100%;
     height:max-content;
     display: flex;
@@ -11,14 +11,21 @@
     margin:130px;
     padding:10px;
     border-width: 10px;
-    border-color: crimson;
+    border-color: #40C1C7;
     margin-right: 0px;
     margin-bottom: 100px;
+    margin-left: 0px;
 }
 #searchimage{
     width: 70px;
     height: 70px;
     margin-top: 130px;
+    background-color: #40C1C7;
+}
+#searchimage:hover{
+    width: 90px;
+    height: 90px;
+    margin-top: 120px;
 }
 
 #quickpages{
@@ -27,7 +34,7 @@
     grid-template-columns: auto auto auto;
     justify-content: center;
     align-items: center;
-    background-color: hsla(299, 83%, 90%, 1);
+    background-color: #67CED3;
 }
 .quickpage{
     margin: 20px;
@@ -38,7 +45,7 @@
     border-width: 2px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    border-color: rgb(187, 131, 131);
+    border-color: #40C1C7;
     border-style: solid;
     margin: 0px;
 }
@@ -47,8 +54,8 @@
     border-width: 2px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
-    border-color: rgb(187, 131, 131);
-    background-color: rgb(241, 211, 211);
+    border-color: #40C1C7;
+    background-color: #a0dcde;
     padding: 5px;
     border-style: solid;
     margin: 0px;
